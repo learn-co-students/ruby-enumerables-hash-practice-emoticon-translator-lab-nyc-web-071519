@@ -6,7 +6,7 @@ describe "#load_library" do
 
   context "return value" do
 
-    let(:result) { load_library("./lib/emoticons.yml") }
+    let(result) { load_library("./lib/emoticons.yml") }
 
     it "returns a hash" do
       expect(result.class).to eq(Hash)
